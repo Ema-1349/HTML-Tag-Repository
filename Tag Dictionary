@@ -1,0 +1,31 @@
+h1: Header tag, makes the text bolder and puts in a separate line. Good for titles
+	Attributes: none
+	Example: <h1> Emma Dong </h1>
+h2: Another header tag, simuler to 'h1' but smaller words, good for headings
+	Attributes: none
+	Example: <h2>What I Like</h2> 
+h3 - h6: More header tags, just smaller letters with each bigger number. 
+	Attributes: none
+	Example: <h3>Foods I Like</h3>
+img: Used to add a picture onto a website. 
+	Attributes: src
+	Example: <img src="Abominable Pic.JFIF"> 
+a: Used to add a clickable website to your webpage. 
+	Attributes: href
+	Example: <a href="https://www.google.ca">https://www.google.ca</a> 
+li: Used to list things, automatically puts in numbering. Used with <ol>
+	Attributes: none
+	Example: <li>-Reading</li> 
+ol: Used to signal an ordered list. Goes before and after your <li>'s 
+	Attributes: none
+	Example: <ol> <li>-Reading</li> </ol>
+p: Used for separate paragraphs. Automatically separates the text from the other stuff.
+	Attributes: none
+	Example:<p>Hai, my name is Emma Dong. I've been taking ballet RAD exams since I was 5 years old. This year I'm studying Intermediate and the exam will be in June. The exam levels go by : Primary, Gr1, Gr2..... Gr 8, Intermediate Foundation, Intermediate...</p>
+ul: Simular to <ol> Creates an unordered list instead of an ordered list. Bullet points instead of Numbers.
+	Attributes: none
+	Example: <ul><li>-Being in a loud environment</li></ul>
+iframe: Used to put in a video. After getting the video code, paste in into the open code. 
+	Attributes: frame, width, src, frameborder
+	Example: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ap0NRJD-2ts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
