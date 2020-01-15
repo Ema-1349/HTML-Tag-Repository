@@ -1,31 +1,55 @@
-h1: Header tag, makes the text bolder and puts in a separate line. Good for titles
-	Attributes: none
-	Example: <h1> Emma Dong </h1>
-h2: Another header tag, simuler to 'h1' but smaller words, good for headings
-	Attributes: none
-	Example: <h2>What I Like</h2> 
-h3 - h6: More header tags, just smaller letters with each bigger number. 
-	Attributes: none
-	Example: <h3>Foods I Like</h3>
-img: Used to add a picture onto a website. 
-	Attributes: src
-	Example: <img src="Abominable Pic.JFIF"> 
-a: Used to add a clickable website to your webpage. 
-	Attributes: href
-	Example: <a href="https://www.google.ca">https://www.google.ca</a> 
-li: Used to list things, automatically puts in numbering. Used with <ol>
-	Attributes: none
-	Example: <li>-Reading</li> 
-ol: Used to signal an ordered list. Goes before and after your <li>'s 
-	Attributes: none
-	Example: <ol> <li>-Reading</li> </ol>
-p: Used for separate paragraphs. Automatically separates the text from the other stuff.
-	Attributes: none
-	Example:<p>Hai, my name is Emma Dong. I've been taking ballet RAD exams since I was 5 years old. This year I'm studying Intermediate and the exam will be in June. The exam levels go by : Primary, Gr1, Gr2..... Gr 8, Intermediate Foundation, Intermediate...</p>
-ul: Simular to <ol> Creates an unordered list instead of an ordered list. Bullet points instead of Numbers.
-	Attributes: none
-	Example: <ul><li>-Being in a loud environment</li></ul>
-iframe: Used to put in a video. After getting the video code, paste in into the open code. 
+HTML Tag Dictionary
+
+-a: Anchor tag / a link tag,  used to make a clickable link to a website.
+Attributes: href
+Example: <a href="https://www.google.ca">https://www.google.ca</a> 
+
+-body: Body tag, this tag contains everything on the website.
+Attributes: None
+Example: <body> <h1>Title Text here</h1> hey </body>
+
+-!DOCTYPE: This tag picks the type of HTML you'll use for the site
+Attributes: html
+Example: <!DOCTYPE html> etc...
+
+-Head: Header tag, this is used for to tell the browser what it needs to think about when looking at your webpage
+Attributes: None
+Example: <head><title> something </title></head>
+
+-html: Marks the beginning and the end of the html code
+Attributes: None
+Example: <html>...</html>
+
+-h1: Header tag, this creates a header/title which is bigger text, 6 different sizes in decreasing size from h1 to h6. Makes texts bolder and also puts int separate lines. Good for titles or headings.
+Attributes: none
+Example: <h1>Name here</h1>
+
+-iframe: Used to put in a video. After getting the video code, paste in into the open code. 
 	Attributes: frame, width, src, frameborder
 	Example: <iframe width="560" height="315" src="https://www.youtube.com/embed/Ap0NRJD-2ts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
+
+-img: Image tag, creates an image onto the webpage
+Attributes: src
+Example: <img src="abomominable pic.jfif">
+
+-li: Creates a list, must be used with <ol> or <ul>
+Attributes: None
+Example: <ol>What i Like:</ol>
+
+-ol: Ordered list tag, comes after an <li> tag to make the list ordered by numbers
+Attributes: None
+Example: <li>What i Like: </li><ol>School</ol><ol>Good grades</ol> </li>
+
+-p: This tag separates writing into organized paragraphs, used for paragraphs
+Attributes: None
+Example: <p>I really like to read, its my main hobby</p>
+
+-title: Represents the name and/or image of the site at the top of the website
+Attributes: None
+Example: <title> Some Random Website</title>
+
+-ul: Unordered list tag, this tag  is simular to the <ol> tag and it comes after an <li> tag to make the list ordered in point form.
+Attributes: None
+Example: <li>Hobbies: </li><ul>Sketching</ol><ol>reading</ul>
+
+
