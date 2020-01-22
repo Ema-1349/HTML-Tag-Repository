@@ -8,6 +8,10 @@ Example: <a href="https://www.google.ca">https://www.google.ca</a>
 Attributes: None
 Example: <body> <h1>Title Text here</h1> hey </body>
 
+-Div: This tag puts a box around everything. Is useful for customizations
+Attributes: none
+Example: <div> stuff </div>
+
 -!DOCTYPE: This tag picks the type of HTML you'll use for the site
 Attributes: html
 Example: <!DOCTYPE html> etc...
