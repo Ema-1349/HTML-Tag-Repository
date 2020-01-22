@@ -8,6 +8,10 @@ Example: <a href="https://www.google.ca">https://www.google.ca</a>
 Attributes: None
 Example: <body> <h1>Title Text here</h1> hey </body>
 
+-Br: buts in a break in the doc. Looks as if you 'entered' for the website. 
+Attributes: none
+Example: <br> <br>
+
 -Div: This tag puts a box around everything. Is useful for customizations
 Attributes: none
 Example: <div> stuff </div>
